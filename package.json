@@ -1,17 +1,29 @@
 {
   "name": "@tohmn/menu",
   "version": "1.0.0",
-  "author": "Tom Sonnemans",
-  "license": "MIT",
-  "homepage": "https://github.com/tohmn/menu",
-  "main": "index.js",
   "description": "Quick and easy to configure menu.",
+  "main": "index.js",
+  "author": "Tom Sonnemans <tom.sonnemans@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tohmn/menu"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "node",
     "npm",
+    "vanillajs",
     "menu"
-  ]
+  ],
+  "contributors": [
+    {
+      "name": "Tom Sonnemans",
+      "email": "tom.sonnemans@gmail.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/tohmn/menu/issues"
+  }
 }
