@@ -12,16 +12,33 @@ $ npm install @tohmn/menu
 
 ### Data Attribute Settings
 
-From @tohmn/menu 1.0.0 you can add settings data-menu attribute.
-
 Example:
 
 ```html
 <a href="#menu-content" data-menu-toggle>MENU</a>
 <div id="menu-content" data-menu-content data-menu='{"enterFrom": right, "height": 100vw, "width": 80vh'>
-    Contents of the menu.
+  Contents of the menu.
 </div>
 ```
+
+### JavaScript Settings
+
+Example:
+
+```javascript
+import '@tohmn/menu';
+
+menuGenerator({
+  enterFrom: 'right',
+});
+```
+
+
+### Settings
+
+| Option | Type | Default | Description |
+| --- | --- | --- | --- |
+| enterFrom | string | top | Specify from where the menu-content should enter the screen |
 
 ## License and Copyright
 

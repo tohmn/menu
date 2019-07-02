@@ -1,8 +1,8 @@
 {
   "name": "@tohmn/menu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quick and easy to configure menu.",
-  "main": "index.js",
+  "main": "js/index.js",
   "author": "Tom Sonnemans <tom.sonnemans@gmail.com>",
   "license": "MIT",
   "repository": {
